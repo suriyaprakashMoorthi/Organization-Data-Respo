@@ -16,6 +16,11 @@ role : user
 
 This Id Only can view an self data.
 
+# Tools and Technologies:
+### Frontend : React, Vite and Ant Design
+### Backend : Node js, axios, passport.js, JWT, cors..,
+### DB : MongoDB
+
 # DB Relation User to Organization collection
 
 ### Sample User Data
