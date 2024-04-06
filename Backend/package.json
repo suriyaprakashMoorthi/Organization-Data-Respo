@@ -1,0 +1,33 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "CURD",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon start",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "migrate:up": "migrate-mongo up",
+    "migrate:down": "migrate-mongo down"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "cros": "^1.0.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "jsonwebtoken": "^9.0.2",
+    "migrate-mongo": "^11.0.0",
+    "mongodb": "^6.5.0",
+    "mongoose": "^8.2.4",
+    "nanoid": "^5.0.6",
+    "nodemon": "^3.1.0",
+    "passport": "^0.7.0",
+    "passport-jwt": "^4.0.1",
+    "passport-local": "^1.0.0",
+    "sequelize": "^6.37.2"
+  }
+}
